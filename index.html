@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zotilus portfolio</title>
+    </head>
+
+
+<body>
+
+ <!-- design BG -->
+  <style>  body {
+    background-color :#999990
+     }</style>
+
+  <!-- Menu nav -->
+    <div class="linkMenu">
+      <a href="index.html" target="_self">HOME</a>
+      <a href="apropos.html" target="_self"><strong>A PROPOS</strong></a>
+      <a href="pageprint.html" target="_self"><strong>PRINT/PAO</strong></a>
+      <a href="page3D.html" target="_self"><strong>3D</strong></a>
+      <a href="video.html" target="_self"><strong>VIDEO</strong></a>
+      <a href="audio.html" target="_self"><strong>AUDIO</strong></a>
+      <a href="contact.html" target="_self"><strong>Contact</strong></a>
+    </div>
+
+    <div class="BGTop"></div>
+        <!-- <img src="img/ui/BG01.jpg" height="100"> -->
+        <style>
+          .BGTop {
+            display: flex;
+            display:float;
+            /* background-image: url(\img\ui\BG01.jpg); */
+
+            
+          }
+        </style>
+        
+      </div>
+  </div>
+
+    <style>.linkMenu{
+      display: flex;
+      /* display: block; */
+      /* box-sizing: content-box; */
+      /* justify-content: flex-end; */
+      /* -moz-box-flexgroup: inherit; */
+      justify-content: space-evenly;
+      /* text-align: right; */
+      /* justify-content: left; */
+      border: 2px solid rgb(255, 255, 255);
+      background-color: black;
+      padding: 10px;
+      
+      /* width: 150px; */
+      filter: drop-shadow(3px 1px 4px #00000071);
+
+    }
+    a{
+      color: lightblue;
+    }
+    </style>
+
+        
+<header>
+    <div class="TitlePage">
+        <p>
+            Vidéo/Print/3D/VR/Son/Musique/Web
+        </p>
+    </div>
+    <style>.TitlePage {
+        display : flex;
+        justify-content: space-around;
+        font-size: 65px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: -200mm;
+        animation-duration: 3s;
+        animation-name: ca_va_ca_vient;
+        animation-iteration-count: initial;
+    }
+        .aller {
+  animation-direction: normal;
+}
+
+.retour {
+  animation-direction: reverse;
+}
+@keyframes ca_va_ca_vient {
+  from {
+    margin-left: 200%;
+    width: 400%;
+  }
+
+  to {
+    justify-content: space-around;
+    /* margin-left: 0%;
+    width: 0%; */
+  }
+        
+        
+        
+}
+h1{
+    font-size: 65px;
+}
+h2{
+    font-size: 40px;
+}
+</style>
+<div class=" Contact">
+  <div>
+    <br><p><strong>SEYFRIEDJean-Luc</strong><br>
+    <strong>port:06.52.94.04.84</strong><br> 
+    <a href="mailto:ZoTiLuS@gmail.com"></a>ZoTiLuS@gmail.com <br>
+    PermisB Néle2.10.73 <br>
+    Français,anglais.</p>
+  </div>
+
+  <div> 
+    <img src="img\luc.jpg" height="150" width="150">
+  </div> 
+
+    <style>
+        .Contact {
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid red;
+            background-color: #ccc;
+            padding: 10px;
+            align-content: space-around;
+            /* width: 150px; */
+            filter: drop-shadow(3px 1px 4px #00000071);
+
+        }
+    </style>
+</header>
+
+
+<br>
+        <div class="TitleWebSites">
+            <p>Site Internet</p>
+        </div>
+<style>.TitleWebSites {
+    display : flex;
+            justify-content: space-around;
+            font-weight: 700;
+        }            
+</style>
+
+
+<div class="box">
+    <div>Rolex-bain</div>
+    <div>Les astronautes Prod</div>
+    <div>Chez Clara resto</div>
+    <div>Chez Sybelle resto</div>
+    <div>Nado boucherie</div>
+    <div>Dido Resto</div>
+    <div>Espace optque Briand
+    <div>Cannes millenium</div>
+
+    </div>
+  </div>
+ <style>.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(120, 52, 247);
+    border-radius: 10%;
+    box-sizing: border-box;color: rgb(219, 177, 40);
+    size: 50px;
+    background-position: top;
+    /* box-shadow: rgb(35, 59, 82);
+    background-image:  */
+  }</style>
+<br>
+
+<div class="BigBox">
+    <header class="top">top</header>
+    <article class="centre">
+      <p>test.</p>  
+    </article>
+    <side class="left">left</side>
+    <side class="right">right</side>
+    <footer class="bas">bas</footer>
+  </div>
+  <style>.BigBox {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .BigBox > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .top {
+    background: rgb(247, 86, 52);
+  }
+  
+  .bas {
+    background: rgb(120, 52, 247);
+  }
+  
+  .centre {
+    text-align: left;
+    background: rgb(70, 139, 240);
+  }
+  
+  .left {
+    background: rgb(237, 159, 50);
+  }
+  
+  .right {
+    background: rgb(224, 58, 191);
+  }
+  
+  @media all and (min-width: 600px) {
+    .left { flex: 1 0 0; }
+    .right { flex: 1 0 0; }
+    
+  }
+  
+  @media all and (min-width: 800px) {
+    .centre    { flex: 3 0px; }
+    .left { order: 1; } 
+    .centre    { order: 2; }
+    .right { order: 3; }
+    .bas  { order: 4; }
+  }
+  
+  body {
+    padding: 4em; 
+  }</style>
+<!-- <table>
+    <tr>
+        <td>Rolex-bain</td> 
+        <td>Les astronautes Prod</td> 
+        <td>Espace optque Briand</td>
+    </tr>
+    <br>
+    <tr> 
+        <td>Chez Sybelle resto</td>
+        <td>Chez Clara resto</td>
+        <td>Dido Resto </td>
+    </tr>
+    <tr> 
+        <td>Cannes millenium</td>
+        <td>Nado boucherie</td>
+        <td>swn blog</td>
+    </tr>
+</table> -->
+
+<br>
+<ul>
+  <li><strong>Print</strong></li>
+  <ol>
+      <li>Plaquettes</li>
+      <li>Packagings</li>
+      <li>Drapeaux</li>
+      <li>Bannières</li>
+      <li>Vinyles</li>
+      
+
+  </ol>
+  </ul>
+</ul>
+
+    <h2><strong>Vidéos de promotions >></strong></h2>
+                <p>• Création de dessins animés promotionnels, prévention COVID Chez Sybelle :" c'est simple, c'est bon !" </p>
+                <p>• Publicité en motion-design pour réseaux sociaux • Films d'entreprises </p>
+                <p>• Chaîne Youtube de vulgarisation </p>
+                <p>• Création de génériques pour TV locales</p>
+
+               
+    <h2><strong>Audio pro ></strong></h2>
+    <p>messages radios</p>
+    <p>musiques broadcast</p>
+    <p>habillages sonores</p>
+    <p>voice over.</p>
+        
+    
+
+
+    <!-- FORMATION -->
+<strong>FORMATION:</strong>
+<p>École supérieure de réalisation audiovisuelle de 1995 à 1997 (ESRA Nice section cinéma)</p>
+
+<strong><p>CENTRES D’INTERETS:</p></strong>
+<p>Présent sur youtube, <strong> ZoTiLuSTV</strong> & <strong>STRANGE WORLD NEWS</strong> (réalité virtuelle/culture Geek/sciences)</p>
+    
+
+
+
+        <br>
+
+        
+            <a href="http://zotilus.free.fr/webgl/index.html" target="_self"><strong>WEBGL sur Unity>>></strong></a>
+        
+       
+            
+        <!-- <iframe class="_3HLqS" title="htmlComp-iframe" name="htmlComp-iframe" width="100%" height="100%" data-src="" src="https://www-zotilus-net.filesusr.com/html/bebd40_702d52ca83629b092bbe80f16fd8a173.html"></iframe> -->
+    soundcloud
+        https://soundcloud.com/zotilus/mass-runner
+
+
+
+     <center><footer>ZoTiLuS 2021</footer> </center> 
+     <div class="BasPage">
+      <footer>
+        ZoTiLuS 2021
+      </footer>
+     </div>
+    <style>
+       .BasPage{
+         justify-content: space-evenly;
+       
+      }
+    </style>
+    
+</body>
+</html>

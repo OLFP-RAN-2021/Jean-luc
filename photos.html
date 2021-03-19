@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="Photos1">
+        <img src="img/Kira.png" alt=""></div>
+        <div class="Photos2">
+        <img src="img/BellaDroid_D.jpg" alt=""></div>
+        <div class="Photos3">
+        <img src="img/Grom.png" alt=""></div>
+        <div class="Photos4">
+        <img src="img/Oli.jpg" alt=""></div>
+    </div>
+        
+    <style>
+       .grid-container {
+  display: grid;
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* justify-items: stretch; */
+  /* justify-content: space-between; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  grid-template-areas:
+    "Photos1 Photos2 Photos3 Photos4"
+    ". . . ."
+    ". . . .";
+}
+
+.Photos1 { grid-area: Photos1; }
+
+.Photos2 { grid-area: Photos2; }
+
+.Photos3 { grid-area: Photos3; }
+
+.Photos4 { grid-area: Photos4; }
+
+body{
+    background-color: black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+  /* border: 1px solid red; */
+  border: 1px groove red;
+  /* border: 10px groove rgb(255, 255, 255); */
+  /* position: relative; */
+  /* justify-content: space-between; */
+
+  test>>>>
+  /* padding-inline-end: 5%;
+  padding-inline-start: 5%;
+  padding-bottom: 50%;
+  padding-block-start: 25%; */
+}
+
+.grid-container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+    </style>
+
+
+</body>
+</html>
