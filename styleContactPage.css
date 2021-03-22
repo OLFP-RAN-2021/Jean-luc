@@ -121,3 +121,34 @@ form {
        entre les étiquettes et les champs texte */
     margin-left: .5em;
   }
+
+  input:required{
+      display: block;
+      justify-content: left;
+      background:url(img/asterisk.png) right no-repeat;
+      background-position:center right  ;
+      background-size: 4%;
+      width: 100%;
+      height: 100%;
+      background-color: lightyellow;
+      transition-duration: 0.3s;
+      /* position: absolute; */
+      transition-duration: 0.3s;
+      display: block;
+      border-color: maroon;
+  }
+  input:invalid, textarea:invalid {
+      transition-duraton: 0.3s;
+      display: block;
+      border-color:lightslategrey;
+ 
+  }
+
+.Formulaire {
+
+    
+}
+  /* .ChampMessage {
+background-color:lightyellow ;
+  } */
+

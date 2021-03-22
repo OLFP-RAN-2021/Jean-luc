@@ -5486,7 +5486,7 @@ h2 {
 
 .Contact {
   filter: drop-shadow(3px 3px 3px #00000071);
-  background-color: rgb(231, 7, 7);
+  background-color:lightslategrey;
   /* display: block; */
   /* writing-mode: horizontal-tb; */
   border-radius: 50px 15px 15px 50px;
@@ -5526,7 +5526,7 @@ h2 {
 #BarreID {
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
+  /* border: 1px solid #CCC; */
   background-color: #ccc;
   padding: 10px;
   align-content: space-around;
@@ -5541,6 +5541,7 @@ h2 {
   display: flex;
   display: block;
   justify-content:space-evenly;
+  flex-direction: row;
   /* padding: 10px; */
   /* color: rgb(219, 177, 40); */
   filter: drop-shadow(3px 3px 3px #00000071);
@@ -5553,6 +5554,7 @@ h2 {
   border-spacing: 200px;
   font-size: 15px;
   box-sizing: border-box;
+  border: 1px solid #CCC;
 }
 @media all and (min-width: 100px) {
   .grid-containerWebSite {
@@ -5682,7 +5684,7 @@ h2 {
 
 #TitlesVideo {
   filter: drop-shadow(3px 3px 3px #00000071);
-  background-color: rgb(231, 7, 7);
+  background-color: #ccc;
   display: block;
   display: flex;
   /* writing-mode: horizontal-tb; */
@@ -5702,6 +5704,7 @@ h2 {
 .TxtVideo {
   display: block;
   display: flex;
+  justify-content: left;
   width: 50%;
   height: 50%;
   /* text-align-last: auto; */
@@ -5709,7 +5712,7 @@ h2 {
 
 .SousTitleVideos {
   -moz-text-size-adjust: auto;
-  background-color: rgb(47, 194, 104);
+  background-color:lightslategrey;
   writing-mode: horizontal-tb;
   border-radius: 0px 0px 50px 5px;
   /* font -moz-text-size-adjust: min-width: 100px; */
@@ -5717,7 +5720,7 @@ h2 {
 
 #TitlesAudio {
   filter: drop-shadow(3px 3px 3px #00000071);
-  background-color: rgb(231, 7, 7);
+  background-color: #ccc;
   display: block;
   writing-mode: horizontal-tb;
   width: 200px;

@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="styleContactPage.css">
 
- <body>
-<!-- Menu nav -->
-<div class="linkMenu">
-  <div class="TXTMenuNav">
-    <a href="index.html" target="_self">HOME</a>
-    <a href="apropos.html" target="_self"><strong>ABOUT</strong></a>
-    <a href="pageprint.html" target="_self"><strong>PRINT/PAO</strong></a>
-    <a href="page3D.html" target="_self"><strong>3D</strong></a>
-    <a href="video.html" target="_self"><strong>VIDEO</strong></a>
-    <a href="audio.html" target="_self"><strong>AUDIO</strong></a>
-    <a href="contact.html" target="_self"><strong>Contact</strong></a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styleContactPage.css">
+
+<body>
+  <!-- Menu nav -->
+  <div class="linkMenu">
+    <div class="TXTMenuNav">
+      <a href="index.html" target="_self">HOME</a>
+      <a href="apropos.html" target="_self"><strong>ABOUT</strong></a>
+      <a href="pageprint.html" target="_self"><strong>PRINT/PAO</strong></a>
+      <a href="page3D.html" target="_self"><strong>3D</strong></a>
+      <a href="video.html" target="_self"><strong>VIDEO</strong></a>
+      <a href="audio.html" target="_self"><strong>AUDIO</strong></a>
+      <a href="contact.html" target="_self"><strong>Contact</strong></a>
+    </div>
+
+  </div>
+  <div class=" Contact">
+    <p><strong>SEYFRIEDJean-Luc</strong><br>
+      <strong>port:06.52.94.04.84</strong><br>
+      <a href="mailto:ZoTiLuS@gmail.com"></a>ZoTiLuS@gmail.com <br>
+      PermisB Néle2.10.73 <br>
+      Français,anglais.
+    </p>
   </div>
 
-</div>
-<div class=" Contact"><p><strong>SEYFRIEDJean-Luc</strong><br>
-  <strong>port:06.52.94.04.84</strong><br> 
-  <a href="mailto:ZoTiLuS@gmail.com"></a>ZoTiLuS@gmail.com <br>
-  PermisB Néle2.10.73 <br>
-  Français,anglais.</p></div>
+  <div class="Formulaire">
+    <form action="/ma-page-de-traitement" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" required placeholder="votre nom" /><span>rentrer votre nom</span>
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_mail" required placeholder="mail@domain.com" />
+        </li>
+        <li>
+          <label for="votre site">site web:</label>
+          <input type="website" id="votresite" name="user_mail" required placeholder="votre site web"
+            pattern="^http:\/\/(.*$" />
+        </li>
 
-<div class="Formulaire">
-  <form action="/ma-page-de-traitement" method="post">
-    <ul>
-      <li>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name"required placeholder="votre nom" />
-      </li>
-      <li>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_mail"required placeholder="mail@domain.com"/>
-      </li>
-      <li>
-        <label for="votre site">site web:</label>
-        <input type="website" id="votresite" name="user_mail"required placeholder pattern="^http:\/\/(.*$"/>
-      </li>
-      <li>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message"required placeholder="Votre message"></textarea>
-      </li>
-      <li class="button">
-        <button type="submit">Send your message</button>
-      </li>
-    </ul>
-  </form>
-</div>
+        <div class="ChampMessage"> <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message" required placeholder="Votre message"></textarea>
+        </div>
+
+        <div class="button">
+          <button type="submit">Send your message</button>
+        </div>
+
+      </ul>
+    </form>
+  </div>
 
 </body>
